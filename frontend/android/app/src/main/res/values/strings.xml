@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Cricket Live</string>
+    <string name="title_activity_main">Cricket Live</string>
+    <string name="package_name">com.technova.cricket</string>
+    <string name="custom_url_scheme">com.technova.cricket</string>
+</resources>

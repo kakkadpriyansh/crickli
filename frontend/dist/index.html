@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/cricket-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#1e40af" />
+    <meta name="description" content="Live Cricket Scores, Fixtures, and Updates" />
+    <title>Cricket Live</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      /* Prevent zoom on iOS */
+      input, select, textarea {
+        font-size: 16px !important;
+      }
+      
+      /* Loading spinner */
+      .loading-spinner {
+        border: 3px solid #f3f3f3;
+        border-top: 3px solid #3b82f6;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-73b70a87.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/vendor-280e31ee.js">
+    <link rel="modulepreload" crossorigin href="./assets/query-c67c513e.js">
+    <link rel="modulepreload" crossorigin href="./assets/router-8f826f5b.js">
+    <link rel="stylesheet" href="./assets/index-72c72c15.css">
+  </head>
+  <body class="bg-gray-50 font-sans">
+    <div id="root">
+      <div class="flex items-center justify-center min-h-screen">
+        <div class="loading-spinner"></div>
+      </div>
+    </div>
+    
+  </body>
+</html>
